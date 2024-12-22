@@ -17,7 +17,7 @@ entries.forEach(entry => {
 
     if(type === 'json'){
       const content = JSON.parse(fs.readFileSync(`./src/${entry}/${subentry}`, 'utf-8'))
-      result.push({ slug , ...content})
+      result.push({path: subentry, slug , ...content})
       //console.log(subentry)
     } else {
       result.push(subentry)
