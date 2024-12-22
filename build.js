@@ -1,8 +1,8 @@
+import { writeFileSync } from 'fs';
+import parser from "./tree-parser/index.js";
 
-const { writeFileSync } = require('fs')
-const parser = require('tree-parser');
-
-const tree = parser('./src');
+const base = "https://minimal-decap-cms-tests.netlify.app/"
+const tree = parser('./src', base);
 
 console.log(tree)
 

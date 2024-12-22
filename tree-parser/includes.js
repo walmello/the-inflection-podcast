@@ -1,9 +1,4 @@
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
+/* @flow */
 
 /**
  * Helper function to replace Babel-Polyfill's Array.includes function
@@ -11,9 +6,5 @@ Object.defineProperty(exports, "__esModule", {
  * @param {Object} elem Object to look for inside the array list
  * @return {Boolean}
  */
-
-exports.default = function (list, elem) {
-  return list.indexOf(elem) !== -1;
-};
-
-module.exports = exports['default'];
+export default (list, elem) =>
+  list.indexOf(elem) !== -1;
