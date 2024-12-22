@@ -2,11 +2,3 @@
   base = ""  
   command = "npm run build"  
   publish = "src"
-
-[identity]
-  enabled = true
-  autoConfirm = true
-  roles = ["admin"]
-
-[identity.gateways]
-  git_gateway = true
