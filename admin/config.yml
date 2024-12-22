@@ -2,3 +2,7 @@ backend:
   name: git-gateway
 
 media_folder: "uploads"
+
+collections:
+  - name: posts
+    identifier_field: name
