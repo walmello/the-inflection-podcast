@@ -5,11 +5,10 @@ backend:
 media_folder: "uploads"
 public_folder: "https://minimal-decap-cms-tests.netlify.app/uploads"
 
-
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
-    folder: "_posts/blog" # The path to the folder where the documents are stored
+    folder: "blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     format: "json" # Convert to JSON for better use of the elements
