@@ -1,9 +1,22 @@
-import { writeFileSync } from 'fs';
-import parser from "./tree-parser/index.js";
+import fs from 'fs';
+//import parser from "./tree-parser/index.js";
 
-const base = "https://minimal-decap-cms-tests.netlify.app/"
-const tree = parser('./src', base);
+const base = "https://minimal-decap-cms-tests.netlify.app"
+const entries = fs.readdirSync('./src').filter(entry => {
+  return !['admin', 'index.html'].includes(entry)
+})
 
-console.log(tree)
+entries.forEach(entry => {
+  const subentries = fs.readdirSync(`./src/${entry}`).filter(entry => {
+  return !['index.json'].includes(entry)
+})
+  console.log(subentries)
+  fs.writeFileSync(`./src/${entry}/index.json`, "")
+})
+//const content = fs.readFileSync('')
 
-writeFileSync('./src/endpoints.json', JSON.stringify(tree, null, 2))
+//const tree = JSON.stringify(parser('./src', base), null, 2);
+
+
+
+fs.writeFileSync('./src/blog/index.json', "")
