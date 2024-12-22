@@ -9,6 +9,3 @@ Click on this button to deploy it to your Netlify account:
 ## How to configure
 Take a look at the documentation for Decap CMS to make it your own, add new fields and etc. 
 [Documentation for Decap CMS](https://decapcms.org/docs/configuration-options/#collections)
-
-Adding more information later...
-remember to activate Identity, invite yourself and your client, and activate Git Gateway. 
