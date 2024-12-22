@@ -1,0 +1,11 @@
+[
+  {
+    "test-blog.json": {
+      "layout": "blog",
+      "date": "2024-12-22T14:33:14.036Z",
+      "title": "Test Blog",
+      "thumbnail": "https://minimal-decap-cms-tests.netlify.app/uploads/frame-49.jpg",
+      "body": "t﻿estand"
+    }
+  }
+]
