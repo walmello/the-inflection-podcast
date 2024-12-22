@@ -10,8 +10,7 @@ entries.forEach(entry => {
   const subentries = fs.readdirSync(`./src/${entry}`).filter(entry => {
   return !['index.json'].includes(entry)
 })
-  console.log(subentries)
-  fs.writeFileSync(`./src/${entry}/index.json`, "")
+  fs.writeFileSync(`./src/${entry}/index.json`, JSON.stringify(subentries))
 })
 //const content = fs.readFileSync('')
 
