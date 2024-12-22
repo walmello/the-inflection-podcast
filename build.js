@@ -12,10 +12,3 @@ entries.forEach(entry => {
 })
   fs.writeFileSync(`./src/${entry}/index.json`, JSON.stringify(subentries))
 })
-//const content = fs.readFileSync('')
-
-//const tree = JSON.stringify(parser('./src', base), null, 2);
-
-
-
-fs.writeFileSync('./src/blog/index.json', "")
