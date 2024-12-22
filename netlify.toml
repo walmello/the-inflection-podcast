@@ -5,7 +5,7 @@
 
 [[redirects]]
   from = "/*"
-  to = "./404.json"
+  to = "src/404.json"
   status = 404
 
 [[headers]]
