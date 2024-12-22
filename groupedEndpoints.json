@@ -1,0 +1,16 @@
+{
+  "path": "/",
+  "children": [
+    {
+      "path": "/admin",
+      "children": [
+        {
+          "path": "/admin"
+        }
+      ]
+    },
+    {
+      "path": "/"
+    }
+  ]
+}
