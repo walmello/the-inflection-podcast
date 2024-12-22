@@ -2,13 +2,3 @@
   base = ""  
   command = "npm run build"  
   publish = "src"
-
-[[redirects]]
-  from = "/*"
-  to = "404.json"
-  status = 404
-
-[[headers]]
-  for = "/404.json"
-  [headers.values]
-    Content-Type = "application/json"
