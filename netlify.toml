@@ -3,10 +3,12 @@
   command = "npm run build"  
   publish = "src"
 
-[identity]
-  enabled = true
-  autoConfirm = true
-  roles = ["admin"]
+[[redirects]]
+  from = "/*"
+  to = "404.json"
+  status = 404
 
-[identity.gateways]
-  git_gateway = true
+[[headers]]
+  for = "/404.json"
+  [headers.values]
+    Content-Type = "application/json"
