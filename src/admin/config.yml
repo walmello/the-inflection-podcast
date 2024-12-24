@@ -3,11 +3,13 @@ backend:
   branch: main
 
 media_folder: "src/uploads"
-public_folder: "https://minimal-decap-cms-tests.netlify.app/uploads"
+public_folder: "https://the-inflection-podcast.netlify.app/uploads"
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
+    editor:
+      preview: false
     folder: "src/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
