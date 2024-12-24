@@ -13,16 +13,12 @@ entries.forEach(entry => {
   return !['index.json'].includes(entry)
 })
   subentries.forEach(subentry => {
-    const type = subentry.split('.')[1]
-    const aux = {
-      [subentry]: subentry
-    }
+    const [slug , type] = subentry.split('.')
+
     if(type === 'json'){
       const content = JSON.parse(fs.readFileSync(`./src/${entry}/${subentry}`, 'utf-8'))
-      console.log(content)
-      result.push({
-        [subentry]: content
-      })
+      result.push({path: subentry, slug , ...content})
+      //console.log(subentry)
     } else {
       result.push(subentry)
     }
