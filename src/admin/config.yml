@@ -19,6 +19,11 @@ collections:
         label: Title
         widget: string
 
+      - label: Featured
+        name: featured
+        widget: boolean
+        default: false
+
       - name: description
         label: Description
         widget: text
