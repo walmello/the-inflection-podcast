@@ -65,9 +65,9 @@ collections:
         required: false
 
       - label: Featured
-            name: featured
-            widget: boolean
-            default: false
+        name: featured
+        widget: boolean
+        default: false
 
       - label: Options
         name: options
