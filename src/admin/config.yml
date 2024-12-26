@@ -6,6 +6,31 @@ media_folder: "src/uploads"
 public_folder: "https://the-inflection-podcast.netlify.app/uploads" # change here to your netlify original sitename. 
 
 collections:
+  - name: "events"
+    label: "Events"
+    editor:
+      preview: false
+    folder: "src/events"
+    create: true
+    slug: "{{slug}}"
+    format: json
+    fields:
+      - name: Title
+        label: title
+        widget: string
+
+      - name: Description
+        label: description
+        widget: text
+
+      - name: Location
+        label: location
+        widget: map
+
+      - name: DateTime
+        label: datetime
+        widget: datetime      
+
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     editor:
