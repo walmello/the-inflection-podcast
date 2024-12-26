@@ -22,6 +22,11 @@ collections:
       - name: description
         label: Description
         widget: text
+    
+      - label: Cover Image
+        name: image
+        widget: image
+        required: false
 
       - name: location
         label: Location
