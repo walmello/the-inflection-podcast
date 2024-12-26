@@ -3,13 +3,13 @@ backend:
   branch: main
 
 media_folder: "src/uploads"
-public_folder: "https://the-inflection-podcast.netlify.app/uploads"
+public_folder: "https://the-inflection-podcast.netlify.app/uploads" # change here to your netlify original sitename. 
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     editor:
-      preview: false
+      preview: false # Disables the "eye icon"
     folder: "src/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -43,12 +43,12 @@ collections:
           - label: Publish Date
             name: date
             widget: datetime
-            default: "{{now}}"
 
           - label: Order
             name: order
             widget: number
             value_type: int
+            default: 0
 
 
       - label: Cover Image
