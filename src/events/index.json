@@ -1,0 +1,138 @@
+[
+  {
+    "path": "digital-marketing-for-growth-workshop.json",
+    "slug": "digital-marketing-for-growth-workshop",
+    "dateTime": "2024-12-26T16:45:04.381Z",
+    "title": "Digital Marketing for Growth Workshop",
+    "description": "Learn the latest digital marketing tactics that can drive measurable results for your business. This hands-on workshop will cover everything from paid ads to organic growth strategies, giving you the tools to expand your reach and maximize your ROI.",
+    "location": "Marketing Hub - Phoenix - AZ"
+  },
+  {
+    "0": {
+      "path": "digital-marketing-for-growth-workshop.json",
+      "slug": "digital-marketing-for-growth-workshop",
+      "dateTime": "2024-12-26T16:45:04.381Z",
+      "title": "Digital Marketing for Growth Workshop",
+      "description": "Learn the latest digital marketing tactics that can drive measurable results for your business. This hands-on workshop will cover everything from paid ads to organic growth strategies, giving you the tools to expand your reach and maximize your ROI.",
+      "location": "Marketing Hub - Phoenix - AZ"
+    },
+    "1": {
+      "0": {
+        "path": "digital-marketing-for-growth-workshop.json",
+        "slug": "digital-marketing-for-growth-workshop",
+        "dateTime": "2024-12-26T16:45:04.381Z",
+        "title": "Digital Marketing for Growth Workshop",
+        "description": "Learn the latest digital marketing tactics that can drive measurable results for your business. This hands-on workshop will cover everything from paid ads to organic growth strategies, giving you the tools to expand your reach and maximize your ROI.",
+        "location": "Marketing Hub - Phoenix - AZ"
+      },
+      "1": {
+        "0": {
+          "path": "digital-marketing-for-growth-workshop.json",
+          "slug": "digital-marketing-for-growth-workshop",
+          "dateTime": "2024-12-26T16:45:04.381Z",
+          "title": "Digital Marketing for Growth Workshop",
+          "description": "Learn the latest digital marketing tactics that can drive measurable results for your business. This hands-on workshop will cover everything from paid ads to organic growth strategies, giving you the tools to expand your reach and maximize your ROI.",
+          "location": "Marketing Hub - Phoenix - AZ"
+        },
+        "1": {
+          "0": {
+            "path": "digital-marketing-for-growth-workshop.json",
+            "slug": "digital-marketing-for-growth-workshop",
+            "dateTime": "2024-12-26T16:45:04.381Z",
+            "title": "Digital Marketing for Growth Workshop",
+            "description": "Learn the latest digital marketing tactics that can drive measurable results for your business. This hands-on workshop will cover everything from paid ads to organic growth strategies, giving you the tools to expand your reach and maximize your ROI.",
+            "location": "Marketing Hub - Phoenix - AZ"
+          },
+          "1": {
+            "path": "scaling-strategies-mastermind.json",
+            "slug": "scaling-strategies-mastermind",
+            "dateTime": "2024-12-26T16:44:28.960Z",
+            "title": "Scaling Strategies Mastermind",
+            "description": "Join our exclusive mastermind session where top entrepreneurs will share proven strategies for scaling your business. This interactive event focuses on actionable insights, practical tips, and networking with like-minded founders who are navigating growth challenges.",
+            "location": "Phoenix Tech Hub - Phoenix - AZ"
+          },
+          "2": {
+            "path": "visionary-leadership-panel.json",
+            "slug": "visionary-leadership-panel",
+            "dateTime": "2024-12-26T16:45:40.331Z",
+            "title": "Visionary Leadership Panel",
+            "description": "Gain valuable perspectives from a panel of visionary leaders who have disrupted industries and built successful, purpose-driven businesses. Learn about leadership principles, overcoming obstacles, and building a company culture that drives long-term success.",
+            "location": "Online"
+          },
+          "path": "featured.json",
+          "slug": "featured"
+        },
+        "2": {
+          "path": "scaling-strategies-mastermind.json",
+          "slug": "scaling-strategies-mastermind",
+          "dateTime": "2024-12-26T16:44:28.960Z",
+          "title": "Scaling Strategies Mastermind",
+          "description": "Join our exclusive mastermind session where top entrepreneurs will share proven strategies for scaling your business. This interactive event focuses on actionable insights, practical tips, and networking with like-minded founders who are navigating growth challenges.",
+          "location": "Phoenix Tech Hub - Phoenix - AZ"
+        },
+        "3": {
+          "path": "visionary-leadership-panel.json",
+          "slug": "visionary-leadership-panel",
+          "dateTime": "2024-12-26T16:45:40.331Z",
+          "title": "Visionary Leadership Panel",
+          "description": "Gain valuable perspectives from a panel of visionary leaders who have disrupted industries and built successful, purpose-driven businesses. Learn about leadership principles, overcoming obstacles, and building a company culture that drives long-term success.",
+          "location": "Online"
+        },
+        "path": "featured.json",
+        "slug": "featured"
+      },
+      "2": {
+        "path": "scaling-strategies-mastermind.json",
+        "slug": "scaling-strategies-mastermind",
+        "dateTime": "2024-12-26T16:44:28.960Z",
+        "title": "Scaling Strategies Mastermind",
+        "description": "Join our exclusive mastermind session where top entrepreneurs will share proven strategies for scaling your business. This interactive event focuses on actionable insights, practical tips, and networking with like-minded founders who are navigating growth challenges.",
+        "location": "Phoenix Tech Hub - Phoenix - AZ"
+      },
+      "3": {
+        "path": "visionary-leadership-panel.json",
+        "slug": "visionary-leadership-panel",
+        "dateTime": "2024-12-26T16:45:40.331Z",
+        "title": "Visionary Leadership Panel",
+        "description": "Gain valuable perspectives from a panel of visionary leaders who have disrupted industries and built successful, purpose-driven businesses. Learn about leadership principles, overcoming obstacles, and building a company culture that drives long-term success.",
+        "location": "Online"
+      },
+      "path": "featured.json",
+      "slug": "featured"
+    },
+    "2": {
+      "path": "scaling-strategies-mastermind.json",
+      "slug": "scaling-strategies-mastermind",
+      "dateTime": "2024-12-26T16:44:28.960Z",
+      "title": "Scaling Strategies Mastermind",
+      "description": "Join our exclusive mastermind session where top entrepreneurs will share proven strategies for scaling your business. This interactive event focuses on actionable insights, practical tips, and networking with like-minded founders who are navigating growth challenges.",
+      "location": "Phoenix Tech Hub - Phoenix - AZ"
+    },
+    "3": {
+      "path": "visionary-leadership-panel.json",
+      "slug": "visionary-leadership-panel",
+      "dateTime": "2024-12-26T16:45:40.331Z",
+      "title": "Visionary Leadership Panel",
+      "description": "Gain valuable perspectives from a panel of visionary leaders who have disrupted industries and built successful, purpose-driven businesses. Learn about leadership principles, overcoming obstacles, and building a company culture that drives long-term success.",
+      "location": "Online"
+    },
+    "path": "featured.json",
+    "slug": "featured"
+  },
+  {
+    "path": "scaling-strategies-mastermind.json",
+    "slug": "scaling-strategies-mastermind",
+    "dateTime": "2024-12-26T16:44:28.960Z",
+    "title": "Scaling Strategies Mastermind",
+    "description": "Join our exclusive mastermind session where top entrepreneurs will share proven strategies for scaling your business. This interactive event focuses on actionable insights, practical tips, and networking with like-minded founders who are navigating growth challenges.",
+    "location": "Phoenix Tech Hub - Phoenix - AZ"
+  },
+  {
+    "path": "visionary-leadership-panel.json",
+    "slug": "visionary-leadership-panel",
+    "dateTime": "2024-12-26T16:45:40.331Z",
+    "title": "Visionary Leadership Panel",
+    "description": "Gain valuable perspectives from a panel of visionary leaders who have disrupted industries and built successful, purpose-driven businesses. Learn about leadership principles, overcoming obstacles, and building a company culture that drives long-term success.",
+    "location": "Online"
+  }
+]

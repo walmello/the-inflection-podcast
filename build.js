@@ -24,4 +24,5 @@ entries.forEach(entry => {
     }
   })
   fs.writeFileSync(`./src/${entry}/index.json`, JSON.stringify(result, null, 2))
+  fs.writeFileSync(`./src/${entry}/featured.json`, JSON.stringify(result.filter(item => item.featured), null, 2))
 })
