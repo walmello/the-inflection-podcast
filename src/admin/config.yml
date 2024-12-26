@@ -25,7 +25,7 @@ collections:
 
       - name: Location
         label: location
-        widget: map
+        widget: string
 
       - name: DateTime
         label: datetime
