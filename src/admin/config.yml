@@ -15,20 +15,20 @@ collections:
     slug: "{{slug}}"
     format: json
     fields:
-      - name: Title
-        label: title
+      - name: title
+        label: Title
         widget: string
 
-      - name: Description
-        label: description
+      - name: description
+        label: Description
         widget: text
 
-      - name: Location
-        label: location
+      - name: location
+        label: Location
         widget: string
 
-      - name: DateTime
-        label: datetime
+      - name: dateTime
+        label: Datetime
         widget: datetime      
 
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
