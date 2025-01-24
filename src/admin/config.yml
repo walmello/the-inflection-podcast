@@ -45,7 +45,7 @@ collections:
         widget: datetime      
 
   - name: "sponsors"
-    label: "Reviews"
+    label: "Sponsors"
     editor:
       preview: false
     folder: "src/sponsors/entries"
