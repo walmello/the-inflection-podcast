@@ -1,29 +1,5 @@
 [
   {
-    "0": {
-      "0": {
-        "0": {
-          "0": "photo-1517926112623-f32a800790d4.jpg",
-          "1": "photo-1557804506-669a67965ba0.jpg",
-          "2": "photo-1612550761236-e813928f7271.jpg",
-          "path": "featured.json",
-          "slug": "featured"
-        },
-        "1": "photo-1517926112623-f32a800790d4.jpg",
-        "2": "photo-1557804506-669a67965ba0.jpg",
-        "3": "photo-1612550761236-e813928f7271.jpg",
-        "path": "featured.json",
-        "slug": "featured"
-      },
-      "1": "photo-1517926112623-f32a800790d4.jpg",
-      "2": "photo-1557804506-669a67965ba0.jpg",
-      "3": "photo-1612550761236-e813928f7271.jpg",
-      "path": "featured.json",
-      "slug": "featured"
-    },
-    "1": "photo-1517926112623-f32a800790d4.jpg",
-    "2": "photo-1557804506-669a67965ba0.jpg",
-    "3": "photo-1612550761236-e813928f7271.jpg",
     "path": "featured.json",
     "slug": "featured"
   },
